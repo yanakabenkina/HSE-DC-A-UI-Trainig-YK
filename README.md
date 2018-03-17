@@ -1,1 +1,1 @@
-# HSE-DC-A-UI-Trainig-YK
+# HSE-DC-A-UI-Training-YK
