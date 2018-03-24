@@ -3,12 +3,12 @@ html, body {
   height: 100%;
 }
 
-.bg {
+/*.bg {
   width: 1440px;
   height: 800px;
   background-image: url(../images/UI-mockup.jpg);
   background-size: 1440px 800px;
-  background-position: center -10px;
+  background-position: center top;
   background-repeat: no-repeat;
 
-}
+}*/
