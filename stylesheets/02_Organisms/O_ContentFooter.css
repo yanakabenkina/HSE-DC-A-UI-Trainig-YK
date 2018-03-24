@@ -1,0 +1,9 @@
+.O_ContentWrapper .O_ContentFooter {
+  border: 1px solid rgba(255, 0, 0, 1);
+  width: 1140px;
+  height: 84px;
+  position: fixed;
+  left: 298px;
+  bottom: 0px;
+  top: 620px;
+}

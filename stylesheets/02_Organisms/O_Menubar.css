@@ -1,0 +1,8 @@
+.O_ContentWrapper .O_Menubar {
+  border: 1px solid rgba(255, 0, 0, 1);
+  width: 1140px;
+  height: 651px;
+  top: 69px;
+  position: fixed;
+  overflow: scroll;
+}

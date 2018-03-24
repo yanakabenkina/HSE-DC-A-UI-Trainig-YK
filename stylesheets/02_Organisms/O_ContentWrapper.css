@@ -1,0 +1,8 @@
+.O_ContentWrapper {
+  display: block;
+  position: absolute;
+  border: 1px solid rgba(255, 0, 0, 1);
+  width: 1140px;
+  height: 800px;
+  left: 298px;
+}

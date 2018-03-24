@@ -1,0 +1,8 @@
+.O_Sidebar .O_Menu {
+  border: 1px solid rgba(255, 0, 0, 1);
+  width: 298px;
+  height: 320px;
+  top: 69px;
+  position: fixed;
+  overflow: scroll;
+}

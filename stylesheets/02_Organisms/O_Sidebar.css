@@ -1,0 +1,6 @@
+.O_Sidebar {
+  position: fixed;
+  border-right: 1px solid rgba(255, 0, 0, 1);
+  width: 298px;
+  height: 100%;
+}
