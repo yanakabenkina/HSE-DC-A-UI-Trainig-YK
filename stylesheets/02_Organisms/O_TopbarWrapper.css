@@ -1,6 +1,6 @@
 .O_TopbarWrapper {
   position: fixed;
   width: calc(100% - 300px);
-  background-color: #fff;
+  /*background-color: #fff;*/
   z-index: 10;
 }
