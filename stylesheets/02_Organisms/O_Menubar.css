@@ -1,73 +1,12 @@
 .O_Menubar {
-  border-bottom: 1px solid #e6e6e6;
-  height: 80px;
-}
-
-.O_Menubar a {
-  text-decoration: none;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 13px;
-}
-
-.O_Menubar .left {
   display: flex;
-  list-style: none;
-  padding: 30px 40px 0;
-  justify-content: flex-start;
+  justify-content: space-between;
+  height: 80px;
+  padding-left: 40px;
+  border-bottom: 1px solid var(--gray);
 }
 
-.O_Menubar .left a {
-  display: inline-block;
-  position: relative;
-  /*transition: color .2s;*/
-  padding-bottom: 30px;
-  margin: 0 30px 0 30px;
-}
-
-.O_Menubar .left li {display: inline-block;}
-
-
-.O_Menubar .left a, .O_Menubar.left a:visited {color: #333333;}
-.O_Menubar .left a.current, .O_Menubar .left a:hover{color: #0f85f3;}
-.O_Menubar .left a:before,
-.O_Menubar .left a:after {
-  content: "";
-  position: absolute;
-  height: 2px;
-  top: auto;
-  right: 50%;
-  bottom: -5px;
-  left: 50%;
-  background: #0f85f3;
-  /*transition: .8s;*/
-}
-
-.O_Menubar .left a:hover:before, .O_Menubar .left .current:before {left: 0;}
-.O_Menubar .left a:hover:after, .O_Menubar .left .current:after {right: 0;}
-
-
-.O_Menubar .right .O_UserMenu .A_UserIcon {
-  background-image: url(../../images/user.svg);
-  width: 40px;
-  height: 40px;
-  background-size: cover;
-  display: inline-block;
-  position: relative;
-}
-
+.O_Menubar .left,
 .O_Menubar .right {
   display: flex;
-  list-style: none;
-  justify-content: flex-end;
-}
-
-.O_Menubar .right a {
-  display: inline-block;
-  position: relative;
-  padding-bottom: 30px;
-  margin: 0 30px 0 30px;
-}
-
-.O_Menubar .right .O_UserMenu .M_UserMenuDropdown ul a {
-  display: list-item;
 }

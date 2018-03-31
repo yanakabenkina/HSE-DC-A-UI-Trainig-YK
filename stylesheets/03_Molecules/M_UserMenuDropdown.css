@@ -1,0 +1,26 @@
+.M_UserMenuDropdown {
+  position: absolute;
+  display: none;
+  top: 80px;
+  right: 25px;
+  min-width: 224px;
+
+  border: 1px solid var(--gray);
+  background-color: white;
+  font-family: var(--OpenSans);
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.M_UserMenuDropdown .top,
+.M_UserMenuDropdown .bottom {
+  padding: 10px 0;
+}
+
+.M_UserMenuDropdown .top {
+  border-bottom: 1px solid var(--gray);
+}
+
+.O_UserMenu:hover .M_UserMenuDropdown {
+  display: block;
+}
