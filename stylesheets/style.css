@@ -17,6 +17,7 @@
 @import "02_Organisms/O_ContentFooter.css";
 @import "02_Organisms/O_UserMenu.css";
 @import "02_Organisms/O_MenuItem.css";
+@import "02_Organisms/O_MenuItemSecondSection.css";
 
 @import "03_Molecules/M_UserMenuDropdown.css";
 @import "03_Molecules/M_Submenu.css";
