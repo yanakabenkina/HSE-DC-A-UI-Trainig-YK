@@ -1,11 +1,9 @@
 .O_MenuItem.active .M_Submenu {
-  display: block;
-  max-height: 320px;
+  transition: all .3s ease;
 }
 
 .M_Submenu {
-  display: block;
-  max-height: 0;
+  height: 0;
   overflow: hidden;
-  transition: all .5s;
+  transition: all .3s ease;
 }
