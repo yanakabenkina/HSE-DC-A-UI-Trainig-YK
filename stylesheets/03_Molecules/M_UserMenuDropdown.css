@@ -8,8 +8,8 @@
   border: 1px solid var(--gray);
   background-color: white;
   font-family: var(--OpenSans);
-  font-size: 14px;
   font-weight: 300;
+  font-size: 14px;
 }
 
 .M_UserMenuDropdown .top,

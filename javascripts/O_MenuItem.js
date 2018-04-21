@@ -25,10 +25,16 @@ $(function() {
     } else {
       $('.O_MenuItem').removeClass('active');
       $('.M_Submenu').height(0);
-      
+
       container.addClass('active');
 
       container.find('.M_Submenu').height(height);
     }
+  });
+
+  $('#sidebarToggle').click(function(e) {
+    e.preventDefault()
+    $(e.target).toggleClass('compact')
+    $('.T_SinglePageUI').toggleClass('compact')
   });
 });

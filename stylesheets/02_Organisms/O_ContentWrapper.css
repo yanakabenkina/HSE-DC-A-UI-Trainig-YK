@@ -1,5 +1,10 @@
 .O_ContentWrapper {
+  box-sizing: border-box;
   width: 100%;
   height: 100%;
   padding-left: 300px;
+}
+
+.T_SinglePageUI.compact .O_ContentWrapper {
+  padding-left: 81px;
 }
