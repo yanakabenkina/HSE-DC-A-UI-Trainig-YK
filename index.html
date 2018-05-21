@@ -8,6 +8,8 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
     <script src="javascripts/jquery-3.3.1.min.js" charset="utf-8"></script>
     <script src="javascripts/O_MenuItem.js" charset="utf-8"></script>
+    <script src="javascripts/O_Pagination.js" charset="utf-8"></script>
+    <script src="javascripts/O_PerPageMenu.js" charset="utf-8"></script>
   </head>
   <body>
     <div class="T_SinglePageUI">
@@ -18,115 +20,113 @@
         <nav class="O_Menu">
           <div class="scrollable">
             <div>
-              <div class="O_MenuItemFirstSection">
-                <div class="O_MenuItem">
-                  <a href="#" class="A_MenuItemButton">
-                    <span class="icon">
-                      <i class="fas fa-users"></i>
-                    </span>
+              <div class="O_MenuItem">
+                <a href="#" class="A_MenuItemButton">
+                  <span class="icon">
+                    <i class="fas fa-users"></i>
+                  </span>
 
-                    <span>Аудитория сообществ</span>
-                  </a>
+                  <span>Аудитория сообществ</span>
+                </a>
 
-                  <div class="M_Submenu">
-                    <a href="#" class="A_SubmenuItem">Элемент 1</a>
-                    <a href="#" class="A_SubmenuItem">Элемент 2</a>
-                    <a href="#" class="A_SubmenuItem">Элемент 3</a>
-                    <a href="#" class="A_SubmenuItem">Элемент 4</a>
-                    <a href="#" class="A_SubmenuItem">Элемент 5</a>
-                    <a href="#" class="A_SubmenuItem">Элемент 6</a>
-                    <a href="#" class="A_SubmenuItem">Элемент 7</a>
-                    <a href="#" class="A_SubmenuItem">Элемент 8</a>
-                  </div>
-                </div>
-
-                <div class="O_MenuItem">
-                  <a href="#" class="A_MenuItemButton">
-                    <span class="icon">
-                      <i class="fas fa-comments"></i>
-                    </span>
-
-                    <span>Сообщества</span>
-                  </a>
-
-                  <div class="M_Submenu">
-                    <a href="#" class="A_SubmenuItem">Элемент 1</a>
-                    <a href="#" class="A_SubmenuItem">Элемент 2</a>
-                    <a href="#" class="A_SubmenuItem">Элемент 3</a>
-                    <a href="#" class="A_SubmenuItem">Элемент 4</a>
-                    <a href="#" class="A_SubmenuItem">Элемент 5</a>
-                    <a href="#" class="A_SubmenuItem">Элемент 6</a>
-                    <a href="#" class="A_SubmenuItem">Элемент 7</a>
-                    <a href="#" class="A_SubmenuItem">Элемент 8</a>
-                  </div>
-                </div>
-
-                <div class="O_MenuItem">
-                  <a href="#" class="A_MenuItemButton">
-                    <span class="icon">
-                      <i class="fas fa-user"></i>
-                    </span>
-
-                    <span>Профили</span>
-                  </a>
-
-                  <div class="M_Submenu">
-                    <a href="#" class="A_SubmenuItem">Элемент 1</a>
-                    <a href="#" class="A_SubmenuItem">Элемент 2</a>
-                    <a href="#" class="A_SubmenuItem">Элемент 3</a>
-                    <a href="#" class="A_SubmenuItem">Элемент 4</a>
-                    <a href="#" class="A_SubmenuItem">Элемент 5</a>
-                    <a href="#" class="A_SubmenuItem">Элемент 6</a>
-                    <a href="#" class="A_SubmenuItem">Элемент 7</a>
-                    <a href="#" class="A_SubmenuItem">Элемент 8</a>
-                  </div>
-                </div>
-
-                <div class="O_MenuItem">
-                  <a href="#" class="A_MenuItemButton">
-                    <span class="icon">
-                      <i class="fas fa-database"></i>
-                    </span>
-
-                    <span>Фильтр баз</span>
-                  </a>
-
-                  <div class="M_Submenu">
-                    <a href="#" class="A_SubmenuItem">Элемент 1</a>
-                    <a href="#" class="A_SubmenuItem">Элемент 2</a>
-                    <a href="#" class="A_SubmenuItem">Элемент 3</a>
-                    <a href="#" class="A_SubmenuItem">Элемент 4</a>
-                    <a href="#" class="A_SubmenuItem">Элемент 5</a>
-                    <a href="#" class="A_SubmenuItem">Элемент 6</a>
-                    <a href="#" class="A_SubmenuItem">Элемент 7</a>
-                    <a href="#" class="A_SubmenuItem">Элемент 8</a>
-                  </div>
-                </div>
-
-                <div class="O_MenuItem">
-                  <a href="#" class="A_MenuItemButton">
-                    <span class="icon">
-                      <i class="fas fa-ellipsis-h"></i>
-                    </span>
-
-                    <span>Разное</span>
-                  </a>
-
-                  <div class="M_Submenu">
-                    <a href="#" class="A_SubmenuItem">Элемент 1</a>
-                    <a href="#" class="A_SubmenuItem">Элемент 2</a>
-                    <a href="#" class="A_SubmenuItem">Элемент 3</a>
-                    <a href="#" class="A_SubmenuItem">Элемент 4</a>
-                    <a href="#" class="A_SubmenuItem">Элемент 5</a>
-                    <a href="#" class="A_SubmenuItem">Элемент 6</a>
-                    <a href="#" class="A_SubmenuItem">Элемент 7</a>
-                    <a href="#" class="A_SubmenuItem">Элемент 8</a>
-                  </div>
+                <div class="M_Submenu">
+                  <a href="#" class="A_SubmenuItem">Элемент 1</a>
+                  <a href="#" class="A_SubmenuItem">Элемент 2</a>
+                  <a href="#" class="A_SubmenuItem">Элемент 3</a>
+                  <a href="#" class="A_SubmenuItem">Элемент 4</a>
+                  <a href="#" class="A_SubmenuItem">Элемент 5</a>
+                  <a href="#" class="A_SubmenuItem">Элемент 6</a>
+                  <a href="#" class="A_SubmenuItem">Элемент 7</a>
+                  <a href="#" class="A_SubmenuItem">Элемент 8</a>
                 </div>
               </div>
 
-            <div class="O_MenuItemSecondSection">
+              <div class="O_MenuItem">
+                <a href="#" class="A_MenuItemButton">
+                  <span class="icon">
+                    <i class="fas fa-comments"></i>
+                  </span>
 
+                  <span>Сообщества</span>
+                </a>
+
+                <div class="M_Submenu">
+                  <a href="#" class="A_SubmenuItem">Элемент 1</a>
+                  <a href="#" class="A_SubmenuItem">Элемент 2</a>
+                  <a href="#" class="A_SubmenuItem">Элемент 3</a>
+                  <a href="#" class="A_SubmenuItem">Элемент 4</a>
+                  <a href="#" class="A_SubmenuItem">Элемент 5</a>
+                  <a href="#" class="A_SubmenuItem">Элемент 6</a>
+                  <a href="#" class="A_SubmenuItem">Элемент 7</a>
+                  <a href="#" class="A_SubmenuItem">Элемент 8</a>
+                </div>
+              </div>
+
+              <div class="O_MenuItem">
+                <a href="#" class="A_MenuItemButton">
+                  <span class="icon">
+                    <i class="fas fa-user-plus"></i>
+                  </span>
+
+                  <span>Профили пользователей</span>
+                </a>
+
+                <div class="M_Submenu">
+                  <a href="#" class="A_SubmenuItem">Элемент 1</a>
+                  <a href="#" class="A_SubmenuItem">Элемент 2</a>
+                  <a href="#" class="A_SubmenuItem">Элемент 3</a>
+                  <a href="#" class="A_SubmenuItem">Элемент 4</a>
+                  <a href="#" class="A_SubmenuItem">Элемент 5</a>
+                  <a href="#" class="A_SubmenuItem">Элемент 6</a>
+                  <a href="#" class="A_SubmenuItem">Элемент 7</a>
+                  <a href="#" class="A_SubmenuItem">Элемент 8</a>
+                </div>
+              </div>
+
+              <div class="O_MenuItem">
+                <a href="#" class="A_MenuItemButton">
+                  <span class="icon">
+                    <i class="fas fa-database"></i>
+                  </span>
+
+                  <span>Фильтр баз</span>
+                </a>
+
+                <div class="M_Submenu">
+                  <a href="#" class="A_SubmenuItem">Элемент 1</a>
+                  <a href="#" class="A_SubmenuItem">Элемент 2</a>
+                  <a href="#" class="A_SubmenuItem">Элемент 3</a>
+                  <a href="#" class="A_SubmenuItem">Элемент 4</a>
+                  <a href="#" class="A_SubmenuItem">Элемент 5</a>
+                  <a href="#" class="A_SubmenuItem">Элемент 6</a>
+                  <a href="#" class="A_SubmenuItem">Элемент 7</a>
+                  <a href="#" class="A_SubmenuItem">Элемент 8</a>
+                </div>
+              </div>
+
+              <div class="O_MenuItem">
+                <a href="#" class="A_MenuItemButton">
+                  <span class="icon">
+                    <i class="fas fa-ellipsis-h"></i>
+                  </span>
+
+                  <span>Разное</span>
+                </a>
+
+                <div class="M_Submenu">
+                  <a href="#" class="A_SubmenuItem">Элемент 1</a>
+                  <a href="#" class="A_SubmenuItem">Элемент 2</a>
+                  <a href="#" class="A_SubmenuItem">Элемент 3</a>
+                  <a href="#" class="A_SubmenuItem">Элемент 4</a>
+                  <a href="#" class="A_SubmenuItem">Элемент 5</a>
+                  <a href="#" class="A_SubmenuItem">Элемент 6</a>
+                  <a href="#" class="A_SubmenuItem">Элемент 7</a>
+                  <a href="#" class="A_SubmenuItem">Элемент 8</a>
+                </div>
+              </div>
+            </div>
+
+            <div>
               <div class="O_MenuItem">
                 <a href="#" class="A_ActionButton">
                   <span class="icon">
@@ -150,58 +150,95 @@
           </div>
         </nav>
 
-        <footer class="O_SidebarFooter"
-              <div class="O_MenuItem">
-                <a href="#" class="A_ActionButton" id="sidebarToggle">
-                  <span class="icon">
-                    <i class="fas fa-backward"></i>
-                    <i class="fas fa-forward"></i>
-                  </span>
+        <footer class="O_SidebarFooter">
+          <div class="O_MenuItem">
+            <a href="#" class="A_ActionButton" id="sidebarToggle">
+              <span class="icon">
+                <i class="fas fa-backward"></i>
+                <i class="fas fa-forward"></i>
+              </span>
 
-                  <span>Свернуть</span>
-                </a>
-              </div>
-          </footer>
-        </aside>
+              <span>Свернуть</span>
+            </a>
+          </div>
+        </footer>
+      </aside>
 
-        <div class="O_ContentWrapper">
-          <header class="O_TopbarWrapper">
-            <nav class="O_Menubar">
-              <div class="left">
-                <a class="A_MenubarLink" href="#">Мои Задачи</a>
-                <a class="A_MenubarLink" href="#">Мои Списки</a>
-                <a class="A_MenubarLink active" href="#">Мои Проекты</a>
-              </div>
+      <div class="O_ContentWrapper">
+        <header class="O_TopbarWrapper">
+          <nav class="O_Menubar">
+            <div class="left">
+              <a class="A_MenubarLink" href="#">Мои Задачи</a>
+              <a class="A_MenubarLink" href="#">Мои Списки</a>
+              <a class="A_MenubarLink active" href="#">Мои Проекты</a>
+            </div>
 
-              <div class="right">
-                <a class="A_MenubarLink" href="#">Помощь</a>
+            <div class="right">
+              <a class="A_MenubarLink" href="#">Помощь</a>
 
-                <nav class="O_UserMenu">
-                  <div class="A_UserIcon"></div>
+              <nav class="O_UserMenu">
+                <div class="A_UserIcon"></div>
 
-                  <nav class="M_UserMenuDropdown">
-                    <ul class="top">
-                      <li><a class="A_DropdownMenuItem" href="#">Управление доступом</a></li>
-                      <li><a class="A_DropdownMenuItem" href="#">Настройки профиля</a></li>
-                    </ul>
+                <nav class="M_UserMenuDropdown">
+                  <ul class="top">
+                    <li><a class="A_DropdownMenuItem" href="#">Управление доступом</a></li>
+                    <li><a class="A_DropdownMenuItem" href="#">Настройки профиля</a></li>
+                  </ul>
 
-                    <ul class="bottom">
-                      <li><a class="A_DropdownMenuItem" href="#">Выход</a></li>
-                    </ul>
-                  </nav>
+                  <ul class="bottom">
+                    <li><a class="A_DropdownMenuItem" href="#">Выход</a></li>
+                  </ul>
                 </nav>
-              </div>
-            </nav>
+              </nav>
+            </div>
+          </nav>
 
-            <div class="O_Searchbar"></div>
-          </header>
+          <div class="O_SearchBar"></div>
+        </header>
 
-          <div class="O_Content">
+        <div class="O_Content">
+        </div>
 
+        <footer class="O_ContentFooter">
+          <div class="O_Pagination">
+            <a href="#" class="A_PaginationButton arrow left">
+              <i class="fas fa-chevron-left"></i>
+            </a>
+
+            <div class="M_PaginationPages">
+              <a href="#" class="A_PaginationButton page">1</a>
+
+              <div class="A_PaginationButton ellipsis">...</div>
+
+              <a href="#" class="A_PaginationButton page">99</a>
+              <a href="#" class="A_PaginationButton page active">100</a>
+              <a href="#" class="A_PaginationButton page">101</a>
+
+              <div class="A_PaginationButton ellipsis">...</div>
+
+              <a href="#" class="A_PaginationButton page">1221</a>
+            </div>
+
+            <a href="#" class="A_PaginationButton arrow right">
+              <i class="fas fa-chevron-right"></i>
+            </a>
           </div>
 
-          <footer class="O_ContentFooter"></footer>
-        </div>
+          <div class="O_PerPageMenu">
+            <div class="A_PerPageButton">
+              <i class="far fa-list-alt"></i>
+              <span></span>
+            </div>
+
+            <ul class="M_PerPageDropdown">
+              <li><a class="A_DropdownMenuItem active" href="#">25 на странице</a></li>
+              <li><a class="A_DropdownMenuItem" href="#">100 на странице</a></li>
+              <li><a class="A_DropdownMenuItem" href="#">500 на странице</a></li>
+              <li><a class="A_DropdownMenuItem" href="#">1000 на странице</a></li>
+            </ul>
+          </div>
+        </footer>
+      </div>
     </div>
   </body>
 </html>

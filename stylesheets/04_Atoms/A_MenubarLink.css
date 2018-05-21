@@ -3,6 +3,7 @@
   display: block;
   line-height: 80px;
   padding: 0 30px;
+  white-space: nowrap;
   font-family: var(--OpenSans);
   font-size: 14px;
   font-weight: 300;
@@ -11,7 +12,7 @@
 
 .A_MenubarLink:hover {
   background-color: var(--bg-gray);
-  border-bottom: 1px solid var(--gray);
+  /* border-bottom: 1px solid var(--gray); */
 }
 
 .A_MenubarLink:hover::after,
